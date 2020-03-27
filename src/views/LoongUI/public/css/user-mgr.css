@@ -1,0 +1,71 @@
+#userMgr .main-right{
+    overflow-y: hidden;
+}
+
+#userMgr .user-search-box{
+	position: absolute;
+    right: 20px;
+    top: 0px;
+    height: 100%;
+}
+
+.dialog-wrap .add-user-dialog{
+	padding-top: 0px;
+}
+
+.dialog-wrap .add-user-dialog .add-user-form{
+	padding-bottom: 15px;
+	padding-top: 31px;
+}
+
+.dialog-wrap .set-role-dialog .opr-list{
+	padding-left: 0px;
+	padding-top: 80px;
+}
+
+.dialog-wrap .set-role-dialog .role-list{
+	padding-top: 40px;
+	padding-left: 120px;
+}
+
+.dialog-wrap .set-role-dialog .btn-opr{
+	margin-right: 10px;
+}
+
+.dialog-wrap .set-role-dialog .item-title{
+	margin-right: 20px;
+	width: 100px;
+	height: 32px;
+	line-height: 32px;
+	text-align: right;
+}
+
+.dialog-wrap .set-role-dialog .disable-input-bg{
+	width: 380px;
+    border-radius: 2px;
+	color: rgba(153,153,153,1);
+    background: rgba(247,248,249,1);
+    border: 1px solid rgba(206,212,218,1);
+}
+
+.dialog-wrap .set-role-dialog .switch-open{
+	position: relative;
+	background: rgba(17,136,221,1);
+	color: rgba(255,255,255,1);
+}
+
+.dialog-wrap .set-role-dialog .switch-open:hover{
+	background: rgba(0,102,187,1);
+}
+
+.dialog-wrap .set-role-dialog .switch-open:active{
+	background: rgba(0,68,153,1);
+}
+
+.dialog-wrap .set-role-dialog .switch-icon{
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	right: 0px;
+	bottom: 0px;
+}

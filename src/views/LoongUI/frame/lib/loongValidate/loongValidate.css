@@ -1,0 +1,65 @@
+.err-logo {
+  	position: absolute;
+  	z-index: 997;
+  	display: inline-block;
+ 	width: 30px;
+  	height: 32px;
+  	cursor: pointer;
+  	text-align: center;
+  	line-height: 32px;
+  	font-size: 13px;
+}
+
+.err-tip {
+	position: fixed;
+	z-index: 10000;
+	max-width: 300px;
+	padding: 4px 10px;
+	border-radius: 3px;
+	border: 1px solid #d3d1d1;
+	background: #fff;
+	font-size: 12px;
+	box-shadow: 0px 4px 4px 0px rgba(12,54,138,0.08), 0px 0px 10px 0px rgba(18,61,148,0.09);
+
+}
+.err-tip ul {
+	padding-left: 15px;
+}
+.err-tip ul li{
+	list-style: disc !important;
+	line-height: 20px;
+}
+.err-tip>em{
+	display: block;
+	border-width: 6px;
+	position: absolute;
+	top: 40%;
+	left: -13px;
+	border-style: solid;
+	border-color: transparent #d3d1d1 transparent transparent;
+	font-size: 0;
+	line-height: 0;
+}
+.err-tip>span{
+	display: block;
+	border-width: 6px;
+	position: absolute;
+	top: 40%;
+	left: -12px;
+	border-style: solid;
+	border-color: transparent #fff transparent transparent;
+	font-size: 0;
+	line-height: 0;
+}
+.valid-none-input {
+	border: 1px solid #1188dd !important;
+}
+.valid-err-input {
+	border: 1px solid #FF2222 !important;
+}
+.cred {
+	color:#ff2222;
+}
+.cblue{
+	color:#1188dd;
+}

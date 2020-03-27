@@ -1,0 +1,110 @@
+.disk-dashboard-box-section {
+    float: left;
+    width: calc(33.3333% - 9.3333px);
+    height: 255px;
+}
+
+.disk-dashboard-box-section .tar {
+    text-align: right;
+}
+
+.disk-dashboard-wrap .storage-box {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: 0px 10px 10px 0px rgba(12, 54, 138, 0.16);
+}
+
+.disk-dashboard-wrap .on-member-ul li {
+    float: left;
+    width: 25%;
+    line-height: 25px;
+    text-align: center;
+}
+
+.disk-dashboard-wrap .on-member-ul {
+    background: rgba(248, 249, 250, 1);
+    height: 145px;
+}
+
+.lh130 {
+    line-height: 130px;
+}
+
+.disk-dashboard-box-section .storage-progress-box {
+    position: relative;
+    padding-top: 10px;
+    width: 160px;
+    height: 160px;
+    left: calc(50% - 80px);
+
+}
+
+.disk-dashboard-box-section .storage-des {
+    font-family: "Arial";
+    text-align: center;
+    font-weight: 500;
+    padding-top: 10px;
+}
+
+.disk-dashboard-box-section .card-box {
+    position: relative;
+    height: 120px;
+    border-radius: 4px;
+    box-shadow: 0px 10px 10px 0px rgba(12, 54, 138, 0.16);
+    cursor: pointer;
+}
+
+.disk-dashboard-box-section .storage-percent {
+    color: #38455A;
+    font-size: 36px;
+    font-weight: 600;
+    padding-top: 20px;
+}
+
+.disk-dashboard-box-section .used-num {
+    color: #999999;
+    font-size: 12px;
+}
+
+.disk-dashboard-chart-wrap {
+    margin-top: 20px;
+    background-color: #fff;
+    width: 100%;
+    /* height:430px; */
+    box-shadow: 0px 10px 10px 0px rgba(12, 54, 138, 0.16);
+}
+
+.dashboard-chart-title {
+    float: left;
+    padding: 10px 0 0 20px;
+    color: #333333;
+    font-size: 13px;
+
+}
+
+.disk-dashboard-chart-box {
+    padding: 0 20px;
+    width: 100%;
+    height: 350px;
+}
+
+.disk-dashboard-wrap {
+    width: auto;
+    position: absolute;
+    left: 0px;
+    right: 0;
+    top: 0px;
+    bottom: 0px;
+    overflow-x: auto;
+    overflow-y: auto;
+} 
+
+
+.disk-dashboard-wrap .storage-no-result {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin-top: 50px;
+}

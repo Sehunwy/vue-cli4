@@ -1,0 +1,130 @@
+.app-min-width{
+    min-width: 1106px;
+}
+.ip-text{
+    line-height:38px;
+    background-color:#F8F9FA;
+}
+
+.check-tab{
+    display:inline-block;
+    height:32px;
+    line-height:32px;
+    padding:0 10px;
+    border-radius:2px;
+    font-size:12px;
+    background-color:#EEF7FF;
+    color:#1188DD;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+}
+
+.check-tab-list{
+    width:380px;
+}
+
+.check-tab-selected{
+    position:relative;
+    background-color:#1188DD;
+    color:#fff;
+
+}
+
+.check-tab-selected:after{
+    font-family:"iconfont";
+    content:"\e602";
+    position:absolute;
+    width:16px;
+    height:16px;
+    bottom:0;
+    right:0;
+    line-height:16px;
+    text-align:center;
+
+}
+
+.light-text{
+    color: #999999;
+}
+
+.notice-text{
+    text-align: center;
+    line-height: 257px;
+}
+
+.app-detail-icon{
+    font-size:16px;
+}
+
+.app-table-wrap .error-status .ip-host,.app-table-wrap .error-status .app-detail-icon{
+    color: #FF2222 !important;
+}
+
+.app-table-wrap .no-monitor-status .ip-host,.app-table-wrap .no-monitor-status .app-detail-icon{
+    color: #999 !important;
+}
+
+.no-monitor-status .app-detail-icon{
+    cursor: default;
+}
+
+form.add-app-form input[name="subDir"],
+form.set-app-form input[name="subDir"],
+form.set-path-form input[name="path"],
+form.create-role-form input[name="subDir"]{
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 350px;
+}
+form.add-app-form div[name="browse-file-icon"],
+form.set-app-form div[name="browse-file-icon"],
+form.set-path-form div[name="browse-file-icon"],
+form.create-role-form div[name="browse-file-icon"]{ 
+  cursor: pointer;
+  position: absolute;
+  right: -30px;
+  top: 0px;
+  color: #1188DD;
+  font-size: 18px;
+  height: 100%;
+  border: 1px solid #CED4DA;
+  border-left: none;
+  width: 30px;
+  text-align: center;
+}
+.monitor-tip-wrap{
+    width:450px;
+    margin:0 auto;
+    min-height:93px;
+    background:rgba(255,255,255,1);
+    border-radius:2px;
+    border:1px solid rgba(233,236,239,1);
+    padding:10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    line-height: 17px;
+}
+.create-role-form textarea[name="comment"]{
+    height: 80px;
+    padding: 10px;
+    font-size: 12px;
+}
+.default-icon{
+    background: rgba(204,204,204,1);
+    color: #fff;
+    border-radius: 4px;
+    padding: 1px 3px;
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+}
+.default-role{
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.role-app-form .role-name-width{
+    max-width: calc(100% - 40px);
+}

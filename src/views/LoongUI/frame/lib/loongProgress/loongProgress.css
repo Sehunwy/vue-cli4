@@ -1,0 +1,15 @@
+.panWrap{
+  position:relative;
+}
+.percentSlide {
+    transition: 0.4s linear;
+    transition-property: width, background;
+}
+.typeText{
+	/*float: left;*/
+}
+.percentText{
+	/*float: left;*/
+    color:#000;
+}
+

@@ -1,0 +1,44 @@
+{
+  "id": "1636291",
+  "name": "keeper",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "4056751",
+      "name": "用户管理",
+      "font_class": "yonghuguanli",
+      "unicode": "e6b0",
+      "unicode_decimal": 59056
+    },
+    {
+      "icon_id": "12833832",
+      "name": "存储池管理18",
+      "font_class": "cunchuchiguanli",
+      "unicode": "e781",
+      "unicode_decimal": 59265
+    },
+    {
+      "icon_id": "12833834",
+      "name": "对象存储展开18",
+      "font_class": "duixiangcunchuzhankai",
+      "unicode": "e782",
+      "unicode_decimal": 59266
+    },
+    {
+      "icon_id": "12833835",
+      "name": "节点服务管理18",
+      "font_class": "jiedianfuwuguanli",
+      "unicode": "e783",
+      "unicode_decimal": 59267
+    },
+    {
+      "icon_id": "12833971",
+      "name": "对象存储收起18",
+      "font_class": "duixiangcunchushouqi",
+      "unicode": "e784",
+      "unicode_decimal": 59268
+    }
+  ]
+}

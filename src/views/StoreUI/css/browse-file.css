@@ -1,0 +1,38 @@
+form.browse-file-form .file-path{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 300px;
+}
+form.browse-file-form .file-search{
+    position: absolute;
+    right: 20px;
+}
+form.browse-file-form .file-type-img{
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
+form.create-folder-form .create-folder-title{
+  text-align: left;
+  font-size: 14px;
+  color:#333333;
+  height: 38px;
+  padding-left: 17px;
+  line-height: 38px;
+  width: 100%;
+  background: #F8F9FA;
+  font-family:PingFangSC-Regular;
+}
+form.browse-file-form .line{
+    width: 8px;
+    height: 1px;
+    background: #999;
+}
+form.create-folder-form .create-folder-name{
+    width: 100%;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

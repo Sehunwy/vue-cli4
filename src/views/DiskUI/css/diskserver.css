@@ -1,0 +1,127 @@
+.disk-server-right .more-btns{
+    position: absolute;
+    z-index: 999;
+    left:0;
+    background: #fff none repeat scroll 0 0;
+    box-shadow: 1px 1px 8px 0px rgba(0,0,0,0.2);;
+    white-space:nowrap;
+    cursor: default;
+    min-width: 100px;
+    border-radius:3px;
+    display: none;
+}
+.disk-server-right .more-btns div:hover{
+     background-color:#F8F9FA;
+}
+.disk-server-right .more-btns div{
+  height: 32px;
+  line-height: 32px;
+}
+.disk-server-right .icon-yunxing {
+  font-size: 16px;
+  color: #22CC22;
+}
+.disk-server-right .icon-zanting {
+  font-size: 16px;
+  color: #999;
+}
+.disk-server-right .icon-quanjurenwushibai {
+  font-size: 16px;
+  color: #FE2C2C;
+}
+form[name="setAuthForm"] input[type='file']{
+  opacity: 0;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 9;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+form[name="setAuthForm"] .select-license-file{
+  float: left;
+  width: calc(100% - 30px);
+  padding-left: 10px;
+  height: 100%;
+  border-right: 1px solid #F1F3F5;
+  overflow: hidden;
+  white-space: nowrap;
+  color: #999;
+  font-size: 12px;
+}
+form[name="setAuthForm"] .select-license-icon{ 
+  position: relative;
+  float: left;
+  width: 30px;
+  height: 100%;
+  text-align: center;
+  font-size: 16px;
+  color: #1188dd;
+  cursor: pointer;
+}
+form[name="setAuthForm"] .license-file-edited{
+  position: relative;
+  border: 1px solid #CED4DA;
+  border-radius: 2px;
+  background-color: #fff;
+  height: 32px;
+  width: 292px;
+  line-height: 32px;
+}
+.diskserver-btn-disabled{
+    background: rgba(241,243,245,1);
+    color: rgba(153,153,153,1);
+    cursor: not-allowed;
+}
+.disk-server-right .no-service{
+  margin-top: 164px;
+  text-align: center;
+  width: 100%;
+}
+.disk-server-right .no-service .no-service-txt{
+  font-size: 14px;
+  font-family: MicrosoftYaHei;
+  margin-top: 16px;
+  color: rgba(153,153,153,1);
+}
+.disk-server-right .no-service .add-service-btn{
+  align-content: center;
+  align-content: center;
+  height: 32px;
+  padding: 0 20px;
+  margin-top: 10px;
+  background: rgba(17,136,221,1);
+  box-shadow: 0px 1px 8px 0px rgba(17,136,221,0.4);
+  border-radius: 2px;
+  font-size: 14px;
+  font-family: PingFangSC-Regular;
+  color: rgba(255,255,255,1);
+  line-height: 32px;
+}
+.disk-server-right .btn-service-disabled{
+  height: 32px;
+  margin-right: 10px;
+  padding: 0 10px;
+  background: #F1F3F5;
+  border-radius: 4px;
+  font-size: 12px;
+  font-family: PingFangSC-Regular;
+  color: #999;
+  line-height: 32px;
+  cursor: not-allowed;
+}
+.disk-server-right .hover-disabled{
+  color: #999;
+  cursor: not-allowed;
+}
+.disk-server-right .line{
+    width: 8px;
+    height: 1px;
+    background: #999;
+}

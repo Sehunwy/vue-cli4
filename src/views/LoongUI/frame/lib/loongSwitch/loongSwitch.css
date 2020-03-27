@@ -1,0 +1,60 @@
+.loong-switch-btn{
+    float:left;
+    position:relative;
+    margin:10px 10px 10px 0;
+    width: 22px;
+    height:12px;
+    border-radius:6px;
+    background-color:#CED4DA;
+    transition:background-color 0.2s;
+    user-select: none;
+    -moz-user-select:none;/*火狐*/
+    -webkit-user-select:none;/*webkit浏览器*/
+    -ms-user-select:none;/*IE10*/
+    -khtml-user-select:none;/*早期浏览器*/
+}
+
+.loong-switch-btn:after{
+    content:"";
+    position:absolute;
+    top:-2px;
+    left:8px;
+    width:14px;
+    height:14px;
+    border-radius:100%;
+    box-shadow:0 2px 5px 0 #7F7F7F ;
+    background: -webkit-linear-gradient(#F6FCFE, #CDE2FB); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#F6FCFE, #CDE2FB); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#F6FCFE, #CDE2FB); /* Firefox 3.6 - 15 */
+    background: linear-gradient(#F6FCFE, #CDE2FB); /* 标准的语法 */
+    transition:left 0.2s;
+}
+
+.loong-switch-open .loong-switch-btn{
+    transition:background-color 0.2s;
+}
+
+.loong-switch-open .loong-switch-btn:after{
+    left:0;
+    transition:left 0.2s;
+}
+
+.loong-switch-text{
+    float:left;
+    font-size:12px;
+    color:#999;
+    line-height:32px;
+}
+
+.loong-switch-open .loong-switch-text{
+    color:#333;
+}
+
+.loong-switch{
+    line-height:20px;
+
+}
+
+.loong-switch-input{
+    display:none;
+}

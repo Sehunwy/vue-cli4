@@ -1,0 +1,175 @@
+.cloud-dashboard.overflow-wrap{
+  width: auto;
+  position: absolute;
+  left: 0px;
+  right: 0;
+  top:0px;
+  bottom: 0px;
+  overflow-x: auto;
+  overflow-y:auto;
+}
+.cloud-dashboard .sumBox{
+    margin:0 0 20px 0;
+}
+.cloud-dashboard .sumList:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+
+.cloud-dashboard .sumData{
+    float:left;
+    width: calc(100% - 80px);
+    height:100%;
+    text-align:center;
+    padding:15px 0 0 0;
+}
+.cloud-dashboard .sumData p{
+    margin-bottom: 15px;
+}
+.cloud-dashboard .sum-item{
+    width:calc(16.6666% - 14px);
+    height:106px;
+    box-shadow:0px 10px 10px 0px rgba(12,54,138,0.19),0px 0px 10px 0px rgba(18,61,148,0.2);
+    border-radius:4px;
+    /*text-align:center;*/
+    color:#fff;
+}
+.cloud-dashboard .sum-item:not(:last-child){
+    margin-right: 14px;
+}
+
+.cloud-dashboard .sum-item:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+.cloud-dashboard div.pm-num, .cloud-dashboard div.vm-num{
+    background: #1188dd;
+}
+.cloud-dashboard div.tenant-num, .cloud-dashboard div.run-vm-num, .cloud-dashboard div.pn-num{
+    background: #28C4EF;
+}
+.cloud-dashboard div.user-num, .cloud-dashboard div.disk-num {
+    background: #4884FD;
+}
+
+
+.cloud-dashboard .data-num{
+    font-size:32px;
+    font-family:PingFangSC-Regular;
+}
+.cloud-dashboard .data-name{
+    font-size:12px;
+    font-family:MicrosoftYaHei;
+}
+
+
+.cloud-dashboard .sum-item{
+    float:left;
+
+}
+.cloud-dashboard .data-icon{
+    margin: 0px;
+    float:left;
+    width: 80px;
+    height:106px;
+}
+.cloud-dashboard .statusBox{
+    padding:0 0 20px 0;
+}
+.cloud-dashboard .statusList:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+.cloud-dashboard .status-li{
+    width:calc(33.3333% - 14px);
+    background-color:#fff;
+    box-shadow:0px 4px 4px 0px rgba(12,54,138,0.08),0px 0px 4px 0px rgba(18,61,148,0.09);
+    border-radius:2px;
+}
+
+.cloud-dashboard .status-li:not(:last-child){
+    margin-right: 14px;
+}
+.cloud-dashboard .li-box{
+    width: 100%;
+}
+
+.cloud-dashboard .li-title{
+    height:44px;
+    line-height:44px;
+    background: #F8F9FA;
+    text-align:left;
+    padding-left: 20px;
+    font-family:PingFangSC-Regular;
+    font-size:14px;
+    color:#666;
+}
+.cloud-dashboard .info-box{
+    position:relative;
+    padding: 0 20px;
+}
+
+.cloud-dashboard .boxHead{
+    font-size:13px;
+    padding-top:11px;
+    margin-bottom: 15px;
+    font-family:PingFangSC-Regular;
+    color:#666;
+    height: 32px;
+}
+
+.cloud-dashboard .info-chart{
+    position:relative;
+    text-align:center;
+    height:140px;
+}
+.cloud-dashboard .chart-canvas{
+    width:calc(100% - 40px);
+    height:168px;
+}
+.cloud-dashboard .info-data{
+    padding:12px 0 20px 0;
+    height: 71px;
+    text-align: center;
+}
+.cloud-dashboard .info-data div.data-text{
+    font-size:12px;
+    font-family:PingFangSC-Regular;
+    color:#666;
+    line-height:17px;
+    margin-bottom: 2px;
+    font-weight:400;
+}
+.cloud-dashboard .info-data .data-number{
+    font-size:16px;
+    font-family:PingFangSC-Regular;
+    color:#333;
+    line-height:22px;
+}
+.cloud-dashboard .data-list-ul li{
+    width:calc(50% - 10px);
+    text-align:center;
+}
+.cloud-dashboard .data-list-ul li .data-number{
+    margin-top: 2px;
+    text-align: center;
+}
+.rate{
+    font-size:36px;
+    font-family:PingFangSC-Semibold;
+    font-weight:600;
+    color:#38455A;
+}
+.rate-label{
+    font-size:12px;
+    font-family:PingFangSC-Regular;
+    font-weight:400;
+    color:#666666;
+}
+#net-line-chart,#storage-line-chart{
+    width:100%;
+    height: 100%;
+}
